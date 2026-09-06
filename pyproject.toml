@@ -147,6 +147,7 @@ testpaths = ["test"]
 
 [tool.coverage]
 run.source = ["mqt.core.plugins.catalyst"]
+paths.source = ["python/mqt/core/plugins/catalyst", "*/site-packages/mqt/core/plugins/catalyst"]
 run.core = "sysmon"
 run.parallel = true
 run.omit = [
